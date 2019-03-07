@@ -1,6 +1,4 @@
-package com.example.demo.model;
-
-import org.springframework.boot.autoconfigure.domain.EntityScan;
+package com.example.demo;
 
 import javax.persistence.*;
 //import javax.swing.plaf.nimbus.State;
