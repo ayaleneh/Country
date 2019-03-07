@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>HomePage</title>
+</head>
+<body>
+<div th:each="country":${country}>
+    <p>country</p>
+    <h2 th:text="${country.name}"></h2>
+    <p>Capital</p>
+    <h2 th:text="${country.capital}"></h2>
+     <p>Currency</p>
+    <h3 th:text="${country.currency}"></h3>
+    <h3 th:text="${country.state.state_name}"></h3>
+</div>
+
+</body>
+</html>
